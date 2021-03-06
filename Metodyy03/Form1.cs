@@ -24,7 +24,13 @@ namespace Metodyy03
 
         private void button1_Click(object sender, EventArgs e)
         {
+            double x1 = double.Parse(textBox1.Text);
+            double x2 = double.Parse(textBox2.Text);
+            double y1 = double.Parse(textBox3.Text);
+            double y2 = double.Parse(textBox4.Text);
 
+            double vysledek = Vzdalenost(x1, x2, y1, y2);
+            MessageBox.Show("Vzdalenost dvou bodů je: " + vysledek);
         }
     }
 }
