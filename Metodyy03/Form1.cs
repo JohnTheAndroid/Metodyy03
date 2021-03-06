@@ -16,5 +16,15 @@ namespace Metodyy03
         {
             InitializeComponent();
         }
+        private double Vzdalenost(double a1, double a2, double b1, double b2)
+        {
+            double vysledek = Math.Sqrt((a2 - a1) * (a2 - a1) + (b2 - b1) * (b2 - b1));
+            return vysledek;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
